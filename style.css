@@ -1,0 +1,73 @@
+:root{
+    --cor: 221deg;
+    --mais-claro: hsl(var(--cor) 75% 50%);
+    --claro: hsl(var(--cor) 75% 45%);
+    --medio: hsl(var(--cor) 74% 40%);
+    --texto: white;
+    --texto2: hsl(var(--cor) 100% 90%)
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--claro);
+}
+
+#apresentação {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+
+    height: 500px;
+
+    text-shadow: 0px 0px 5px black;
+    color: white;
+    
+    border-radius: 0px 0px 0.5rem 0.5rem;
+    background-image: url(imagens/banner.jpg);
+}
+
+#anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+
+    background-color: var(--mais-claro);
+    margin: 1rem;
+    border-radius: 1rem;
+    color: white;
+
+    min-height: 200px;
+}
+
+#temas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    background-color: var(--mais-claro);
+    margin: 1rem;
+    border-radius: 1rem;
+    color: white;
+
+    min-height: 200px;
+}
+
+#temas a {
+    background-color: var(--medio);
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
