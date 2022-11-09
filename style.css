@@ -30,6 +30,7 @@ body {
     
     border-radius: 0px 0px 0.5rem 0.5rem;
     background-image: url(imagens/banner.jpg);
+    background-size: cover;
 }
 
 #anuncio {
