@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+p{
+    margin: 5px;
+}
+
+header{
+    color: white;
+    padding: 10px;
+    background-color: #7f2827;
+    height: 190px;
+    margin-bottom: 150px;
+}
+
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 0px;
+}
+
+header .img-conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+}

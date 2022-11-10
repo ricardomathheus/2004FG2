@@ -2,7 +2,7 @@
     --cor: 221deg;
     --mais-claro: hsl(var(--cor) 75% 50%);
     --claro: hsl(var(--cor) 75% 45%);
-    --medio: hsl(var(--cor) 74% 40%);
+    --medio: hsl(var(--cor) 74% 40%); 
     --texto: white;
     --texto2: hsl(var(--cor) 100% 90%)
 }
@@ -86,7 +86,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
 
@@ -105,6 +104,7 @@ body {
     padding: 1.5rem;
     border-radius: 1rem;
     margin: 1rem 3rem;
+    text-transform: capitalize;
 }
 
 #hq img {
