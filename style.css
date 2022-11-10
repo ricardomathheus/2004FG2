@@ -82,6 +82,37 @@ body {
     margin: 1rem 3rem;
 }
 
+#hq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+
+    background-color: var(--mais-claro);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+#hq .button-a {
+    background-color: var(--medio);
+    color: white;
+    text-decoration: none;
+    width: 70%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 1rem 3rem;
+}
+
+#hq img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 1rem;
+}
+
 #fotos {
     display: flex;
     justify-content: center;
